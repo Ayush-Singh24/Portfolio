@@ -27,7 +27,7 @@ const itemVariants: Variants = {
 
 export default function Links() {
   const items: string[] = [
-    "Homepage",
+    "Home",
     "About Me",
     "Certificates",
     "Projects",
