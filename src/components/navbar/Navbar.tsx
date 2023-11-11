@@ -1,10 +1,17 @@
 import "./navbar.scss";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   return (
     <div className="navbar">
       <div className="wrapper">
-        <span>Ayush Singh</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          Ayush Singh
+        </motion.span>
         <div className="socials">
           <a href="https://github.com/Ayush-Singh24">
             <img src="/images/github.png" alt="github" />
