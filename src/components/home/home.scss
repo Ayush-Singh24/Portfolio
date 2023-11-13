@@ -1,12 +1,26 @@
 .home {
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 8rem);
   background: linear-gradient(180deg, #0c0c1d, #111132);
   overflow: hidden;
-  .imageContainer {
+
+  .wrapper {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 100%;
-    img {
+    .textContainer {
+      width: 50%;
+    }
+    .imageContainer {
       height: 100%;
-      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      img {
+        height: 80%;
+        border-radius: 50%;
+      }
     }
   }
 }
