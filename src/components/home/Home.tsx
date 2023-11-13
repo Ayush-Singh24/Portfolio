@@ -23,6 +23,19 @@ export function Home() {
       },
     },
   };
+  const sliderVariants: Variants = {
+    initial: {
+      x: 0,
+    },
+    animate: {
+      x: "-220%",
+      transition: {
+        duration: 20,
+        repeat: Infinity,
+        repeatType: "mirror",
+      },
+    },
+  };
 
   return (
     <div className="home">
@@ -50,7 +63,13 @@ export function Home() {
             animate="scrollButton"
           />
         </motion.div>
-        <div className="slidingTextContainer">Computer Science Student</div>
+        <motion.div
+          className="slidingTextContainer"
+          variants={sliderVariants}
+          animate="animate"
+        >
+          Computer Science Student
+        </motion.div>
         <div className="imageContainer">
           <img src="/images/ayush.png" alt="profile" />
         </div>

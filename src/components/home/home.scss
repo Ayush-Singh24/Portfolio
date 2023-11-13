@@ -53,14 +53,17 @@
       img {
         height: 80%;
         border-radius: 50%;
+        z-index: 1;
       }
     }
   }
   .slidingTextContainer {
     position: absolute;
-    bottom: -12rem;
     font-size: 50vh;
+    bottom: -2rem;
     white-space: nowrap;
+    width: 50%;
+    font-weight: bold;
     color: #ffffff09;
   }
 }
