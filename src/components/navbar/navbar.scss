@@ -1,17 +1,21 @@
 .navbar {
-  height: 10rem;
+  height: 8rem;
 
   .wrapper {
-    max-width: 1366px;
+    max-width: 1540px;
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
+    padding: 2rem;
   }
 
   span {
     font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: auto;
   }
 
   .socials {
