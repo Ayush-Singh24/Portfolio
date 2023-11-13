@@ -12,6 +12,39 @@
     height: 100%;
     .textContainer {
       width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 4rem;
+
+      h2 {
+        font-size: 3rem;
+        color: rebeccapurple;
+        letter-spacing: 1rem;
+      }
+
+      h1 {
+        font-size: 8.8rem;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 2rem;
+        button {
+          padding: 2rem;
+          border: 1px solid white;
+          border-radius: 1rem;
+          background-color: transparent;
+          color: white;
+          cursor: pointer;
+          font-weight: 300;
+        }
+      }
+
+      img {
+        width: 5rem;
+      }
     }
     .imageContainer {
       height: 100%;
@@ -22,5 +55,12 @@
         border-radius: 50%;
       }
     }
+  }
+  .slidingTextContainer {
+    position: absolute;
+    bottom: -12rem;
+    font-size: 50vh;
+    white-space: nowrap;
+    color: #ffffff09;
   }
 }
