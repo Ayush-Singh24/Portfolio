@@ -14,7 +14,9 @@ function App() {
         <Parallax text="Ceritficates" color="dark" />
       </section>
       <section>services</section>
-      <section>Portfolio</section>
+      <section>
+        <Parallax text="Projects" color="light" />
+      </section>
       <section>Portfolio</section>
       <section>Portfolio</section>
     </div>

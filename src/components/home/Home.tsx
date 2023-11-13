@@ -68,7 +68,7 @@ export function Home() {
           variants={sliderVariants}
           animate="animate"
         >
-          Computer Science Student
+          Computer Science
         </motion.div>
         <div className="imageContainer">
           <img src="/images/ayush.png" alt="profile" />
