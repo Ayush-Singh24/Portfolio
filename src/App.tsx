@@ -25,6 +25,7 @@ function App() {
         <Parallax text="Projects" color="light" />
       </section>
       <section id="Projects">Projects</section>
+      <section id="Contacts">Contact</section>
     </div>
   );
 }
