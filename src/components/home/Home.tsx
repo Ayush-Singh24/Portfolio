@@ -61,6 +61,7 @@ export function Home() {
             alt="scroll"
             variants={textVariants}
             animate="scrollButton"
+            className="scrollButton"
           />
         </motion.div>
         <motion.div

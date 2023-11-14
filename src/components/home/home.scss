@@ -57,6 +57,11 @@
       }
     }
   }
+
+  .scrollButton {
+    z-index: 1000;
+  }
+
   .slidingTextContainer {
     position: absolute;
     font-size: 50vh;
