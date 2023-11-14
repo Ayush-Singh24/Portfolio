@@ -31,7 +31,16 @@
       .buttons {
         display: flex;
         gap: 2rem;
-        button {
+        a {
+          text-decoration: none;
+          font-size: medium;
+          z-index: 1000;
+          transition: all 0.5 ease-in-out;
+          &:hover {
+            transform: scale(1.2);
+            background-color: white;
+            color: #0c0c1d;
+          }
           padding: 2rem;
           border: 1px solid white;
           border-radius: 1rem;

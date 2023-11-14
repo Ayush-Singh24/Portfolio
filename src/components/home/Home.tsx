@@ -51,10 +51,12 @@ export function Home() {
             Web developer and UI designer
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
+            <motion.a variants={textVariants} href="#Projects">
               See the latest projects
-            </motion.button>
-            <motion.button variants={textVariants}>Contact</motion.button>
+            </motion.a>
+            <motion.a variants={textVariants} href="#Contacts">
+              Contact
+            </motion.a>
           </motion.div>
           <motion.img
             src="/images/scroll.png"
