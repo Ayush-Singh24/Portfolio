@@ -1,6 +1,7 @@
 import "./app.scss";
 import AboutMe from "./components/aboutMe/AboutMe";
 import Ceritficates from "./components/certificates/Ceritificates";
+import Contact from "./components/contact/Contact";
 import { Home } from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
@@ -28,7 +29,9 @@ function App() {
       <section id="Projects">
         <Projects />
       </section>
-      <section id="Contacts">Contact</section>
+      <section id="Contacts">
+        <Contact />
+      </section>
     </div>
   );
 }
