@@ -66,13 +66,13 @@ export function Home() {
             className="scrollButton"
           />
         </motion.div>
-        <motion.div
+        {/* <motion.div
           className="slidingTextContainer"
           variants={sliderVariants}
           animate="animate"
         >
           Computer Science
-        </motion.div>
+        </motion.div> */}
         <div className="imageContainer">
           <img src="/images/ayush.png" alt="profile" />
         </div>
