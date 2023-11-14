@@ -1,3 +1,4 @@
+import SkillsBar from "../skillsBar/SkillsBar";
 import "./aboutMe.scss";
 
 export default function AboutMe() {
@@ -23,7 +24,21 @@ export default function AboutMe() {
             </p>
           </div>
         </div>
-        <div className="skillContainer">skill</div>
+        <div className="skillContainer">
+          <h1 className="title-text">Skills</h1>
+          <div className="barContainer">
+            <SkillsBar title="TypeScript" percent={80} />
+            <SkillsBar title="JavaScript" percent={90} />
+            <SkillsBar title="NextJS" percent={85} />
+            <SkillsBar title="ReactJS" percent={95} />
+            <SkillsBar title="NodeJS" percent={96} />
+            <SkillsBar title="ExpressJS" percent={96} />
+            <SkillsBar title="NestJS" percent={80} />
+            <SkillsBar title="CSS/SASS" percent={98} />
+            <SkillsBar title="Tailwind" percent={98} />
+            <SkillsBar title="MUI" percent={90} />
+          </div>
+        </div>
       </div>
     </div>
   );
