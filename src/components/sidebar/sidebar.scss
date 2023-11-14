@@ -11,6 +11,7 @@
     bottom: 0;
     width: 40rem;
     background: white;
+    z-index: 999;
     .links {
       position: absolute;
       width: 100%;
@@ -37,5 +38,6 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    z-index: 1000;
   }
 }

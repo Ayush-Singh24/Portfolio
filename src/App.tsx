@@ -8,23 +8,23 @@ import Parallax from "./components/parallax/Parallax";
 function App() {
   return (
     <div>
-      <section>
+      <section id="Home">
         <Navbar />
         <Home />
       </section>
-      <section>
+      <section id="About">
         <AboutMe />
       </section>
       <section>
         <Parallax text="Ceritficates" color="dark" />
       </section>
-      <section>
+      <section id="Certificates">
         <Ceritficates />
       </section>
       <section>
         <Parallax text="Projects" color="light" />
       </section>
-      <section>Portfolio</section>
+      <section id="Projects">Projects</section>
     </div>
   );
 }
