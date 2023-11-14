@@ -4,6 +4,7 @@ import Ceritficates from "./components/certificates/Ceritificates";
 import { Home } from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
       <section>
         <Parallax text="Projects" color="light" />
       </section>
-      <section id="Projects">Projects</section>
+      <section id="Projects">
+        <Projects />
+      </section>
       <section id="Contacts">Contact</section>
     </div>
   );
