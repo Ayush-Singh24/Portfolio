@@ -23,19 +23,19 @@ export function Home() {
       },
     },
   };
-  const sliderVariants: Variants = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: "-220%",
-      transition: {
-        duration: 20,
-        repeat: Infinity,
-        repeatType: "mirror",
-      },
-    },
-  };
+  // const sliderVariants: Variants = {
+  //   initial: {
+  //     x: 0,
+  //   },
+  //   animate: {
+  //     x: "-220%",
+  //     transition: {
+  //       duration: 20,
+  //       repeat: Infinity,
+  //       repeatType: "mirror",
+  //     },
+  //   },
+  // };
 
   return (
     <div className="home">
