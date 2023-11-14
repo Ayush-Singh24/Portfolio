@@ -23,6 +23,13 @@ export default function AboutMe() {
               B.Tech - SRM UNIVERSITY, KTR CAMPUS (curr. 3rd Sem)
             </p>
           </div>
+          <div className="box">
+            <h1 className="heading">Organization</h1>
+            <span>2023-20XX</span>
+            <p className="description">
+              Member of Google Developer Student Club, SRM-KTR
+            </p>
+          </div>
         </div>
         <div className="skillContainer">
           <h1 className="title-text">Skills</h1>
