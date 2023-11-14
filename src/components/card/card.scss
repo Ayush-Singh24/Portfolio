@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  flex-basis: 33.33%;
+  border: 1px solid white;
+
+  .title {
+    font-size: x-large;
+  }
+
+  .description {
+    font-size: medium;
+  }
+
+  .button {
+    justify-self: baseline;
+    align-self: self-end;
+    font-size: medium;
+    padding: 0.5rem 1.2rem;
+    color: #0c0c1d;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  .button:hover {
+    transform: scale(1.1);
+  }
+  .button:active {
+    transform: scale(0.8);
+  }
+}
