@@ -1,4 +1,5 @@
 import "./app.scss";
+import AboutMe from "./components/aboutMe/AboutMe";
 import { Home } from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
@@ -11,9 +12,11 @@ function App() {
         <Home />
       </section>
       <section>
+        <AboutMe />
+      </section>
+      <section>
         <Parallax text="Ceritficates" color="dark" />
       </section>
-      <section>services</section>
       <section>
         <Parallax text="Projects" color="light" />
       </section>
